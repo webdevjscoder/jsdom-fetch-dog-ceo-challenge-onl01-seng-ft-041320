@@ -33,7 +33,7 @@ function fetchBreeds() {
         li.setAttribute('class', 'dog')
         dogBreedsContainer.appendChild(li)
         li.addEventListener('click', function(){
-        li.style.color = purple;
+            li.style.color = 'red';
       });
     }
    };
